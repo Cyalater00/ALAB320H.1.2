@@ -2,7 +2,8 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <nav aria-label = "Main Navigation" role="navigation">
+    <div>
+            <nav aria-label = "Main Navigation" role="navigation">
         <ul>
             <li><a href="#">Women's</a></li>
             <li><a href="#">Men's</a></li>
@@ -12,6 +13,9 @@ const Nav = () => {
             <li><a href="#">About</a></li>
         </ul>
     </nav>
+
+    </div>
+
   )
 }
 
